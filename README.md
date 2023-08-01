@@ -1,25 +1,21 @@
-# Cкриншоты выполнения команд
+# Cкріншоти виконаного дз.
 
-# Получаем и выводим весь список контактов в виде таблицы (console.table)
+# Отримуємо і виводимо весь список контактів у вигляді таблиці (console.table)
+node index.js --action="list"
 
-node index.js --action list
+https://i.ibb.co/0CB44zS/2023-08-01-144951.png
 
-https://monosnap.com/file/Ov19kEeKfkMnqQTCr5NJsBzXzIKIMX
+# Отримуємо контакт по id і виводимо у консоль об'єкт контакту або null, якщо контакту з таким id не існує.
+node index.js --action="get" --id 05olLMgyVQdWRwgKfg5J6
 
-# Получаем контакт по id - выводим в консоль объект контакта или null, если контакта с таким id не существует.
+https://i.ibb.co/qnPgVW6/2023-08-01-145056.png
 
-node index.js --action get --id 05olLMgyVQdWRwgKfg5J6
+# Додаємо контакт та виводимо в консоль об'єкт новоствореного контакту
+node index.js --action="add" --name Mango --email mango@gmail.com --phone 322-22-22
 
-https://monosnap.com/file/JdPhDg5ldc9wf7Zkv2EWmmKyHOzwgo
+https://i.ibb.co/crGSv7w/2023-08-01-145515.png
 
-# Добавляем контакт и выводим в консоль созданный контакт
+# Видаляємо контакт та виводимо в консоль об'єкт видаленого контакту або null, якщо контакту з таким id не існує.
+node index.js --action="remove" --id qdggE76Jtbfd9eWJHrssH
 
-node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
-
-https://monosnap.com/file/lN737L1nvWQVQaLxy91TaguwalFpjA
-
-# Удаляем контакт и выводим в консоль удаленный контакт или null, если контакта с таким id не существует.
-
-node index.js --action remove --id qdggE76Jtbfd9eWJHrssH
-
-https://monosnap.com/file/mkL10gpUcYuhQEpM1cWJ90ESzKhV9t
+https://i.ibb.co/YZcMJMc/2023-08-01-145346.png
