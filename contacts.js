@@ -45,8 +45,9 @@ export const addContact = async ({ name, email, phone }) => {
 };
 
 export default {
-  listContacts,
+  
   getContactById,
+  listContacts,
   removeContact,
   addContact,
 };
